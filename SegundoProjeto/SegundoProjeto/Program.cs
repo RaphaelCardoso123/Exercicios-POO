@@ -16,10 +16,11 @@ namespace SegundoProjeto
                 Moment = DateTime.Now,
                 Status = OrderStatus.Delivered
 
-
             };
+
             Console.WriteLine(order);
             Console.ReadLine();
+
         }
     }
 }
