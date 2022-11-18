@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using SegundoProjeto.Entities;
+using SegundoProjeto.Entities.Enums;
 
 namespace SegundoProjeto
 {
@@ -8,7 +8,17 @@ namespace SegundoProjeto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testando");
+
+            Order order = new Order
+            {
+
+                Id = 1200,
+                Moment = DateTime.Now,
+                Status = OrderStatus.Delivered
+
+
+            };
+            Console.WriteLine(order);
             Console.ReadLine();
         }
     }

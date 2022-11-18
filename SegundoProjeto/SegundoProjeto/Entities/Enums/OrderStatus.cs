@@ -1,9 +1,9 @@
 ﻿using System;
-using SegundoProjeto.Entities.Enums
+using SegundoProjeto.Entities.Enums;
 
 namespace SegundoProjeto.Entities.Enums
 {
-    class OrderStatus : Int
+    enum OrderStatus : int
     {
 
         PendingPayment = 0,
