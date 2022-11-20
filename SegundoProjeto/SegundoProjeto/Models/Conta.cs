@@ -9,13 +9,26 @@ namespace SegundoProjeto.Models
         public string Nome { get; set; }
         public int Numero { get; set; }
         public int Agencia { get; set; }
-        public double Saldo { get; set; }
+        private double Saldo { get; set; }
+
 
         //Método (Ação)
         public void Depositar(double valor)
         {
-            Saldo += valor;
+            Saldo = Saldo + valor;
         }
+        public void Sacar(double valor)
+        {
+            if ( valor <= Saldo)
+            {
+                Saldo = Saldo - valor;
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente!!!");
+            }
+        }
+
 
         public void ExibirResumoConta()
         {

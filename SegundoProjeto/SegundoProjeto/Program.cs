@@ -16,12 +16,14 @@ namespace SegundoProjeto
             contaC.Nome = "Raphael Cardoso";
             contaC.Numero = 9999;
             contaC.Agencia = 123;
-            contaC.Saldo = 500;
             contaC.Tarifa = 15;
-            contaC.Depositar(1000);
+            contaC.Depositar(1000);  //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
+            contaC.Sacar(900);       //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
             contaC.ExibirResumoConta();
+       
 
             Console.WriteLine("----------------------");
+
 
             Console.WriteLine("CONTA POUPANÇA:");
             ContaPoupanca contaP = new ContaPoupanca();
@@ -29,9 +31,9 @@ namespace SegundoProjeto
             contaP.Nome = "Flávia Gimmioli";
             contaP.Numero = 8888;
             contaP.Agencia = 321;
-            contaP.Saldo = 1000;
             contaP.Juros = 2;
-            contaP.Depositar(1000);
+            contaP.Depositar(1200); //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
+            contaP.Sacar(800);      //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
             contaP.ExibirResumoConta();
 
 
