@@ -39,6 +39,8 @@
   <ItemGroup>
     <Compile Include="Entities\Enums\OrderStatus.cs" />
     <Compile Include="Entities\Order.cs" />
+    <Compile Include="Models\ContaCorrente.cs" />
+    <Compile Include="Models\ContaPoupanca.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>

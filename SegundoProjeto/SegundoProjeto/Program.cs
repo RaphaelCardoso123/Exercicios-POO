@@ -8,19 +8,26 @@ namespace SegundoProjeto
     {
         static void Main(string[] args)
         {
+            
 
+
+
+
+
+
+
+
+            /*
+            //(1) ENUM (Classe Entities) - UDEMY
             Order order = new Order
             {
-
                 Id = 1200,
                 Moment = DateTime.Now,
-                Status = OrderStatus.Delivered
-
+                Status = OrderStatus.Shipped
             };
-
             Console.WriteLine(order);
             Console.ReadLine();
-
+            */
         }
     }
 }
