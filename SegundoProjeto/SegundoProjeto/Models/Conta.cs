@@ -4,7 +4,9 @@ using System.Text;
 
 namespace SegundoProjeto.Models
 {
-    class Conta
+    // (ABSTRACT) pq ela só serve para ser herdada, as verdadeiras contas nesse caso são...
+    //...ContaCorrente e ContaPoupança
+    public abstract class Conta 
     {
         public string Nome { get; set; }
         public int Numero { get; set; }
