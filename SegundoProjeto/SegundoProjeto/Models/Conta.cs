@@ -30,12 +30,19 @@ namespace SegundoProjeto.Models
         }
 
 
-        public void ExibirResumoConta()
+        //Polimorfismo (Virtual)
+        public virtual void ExibirTipoDeConta()
+        {
+            Console.WriteLine("Tipo de conta: "); // Feito separado pq são tipos diferentes de contas
+        }
+        public virtual void ExibirResumoConta()
         {
             Console.WriteLine($"Correntista: {Nome}.");
             Console.WriteLine($"Número: {Numero}.");
             Console.WriteLine($"Agencia: {Agencia}.");
             Console.WriteLine($"Saldo: {Saldo}.");
         }
+
+
     }
 }

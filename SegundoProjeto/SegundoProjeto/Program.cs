@@ -10,7 +10,7 @@ namespace SegundoProjeto
         static void Main(string[] args)
         {
 
-            Console.WriteLine("CONTA CORRENTE:");
+            //CONTA CORRENTE
             ContaCorrente contaC = new ContaCorrente();
 
             contaC.Nome = "Raphael Cardoso";
@@ -19,13 +19,14 @@ namespace SegundoProjeto
             contaC.Tarifa = 15;
             contaC.Depositar(1000);  //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
             contaC.Sacar(900);       //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
+            contaC.ExibirTipoDeConta();  //Usando Polimorfismo
             contaC.ExibirResumoConta();
        
 
             Console.WriteLine("----------------------");
 
 
-            Console.WriteLine("CONTA POUPANÇA:");
+            //CONTA POUPANÇA
             ContaPoupanca contaP = new ContaPoupanca();
 
             contaP.Nome = "Flávia Gimmioli";
@@ -34,10 +35,16 @@ namespace SegundoProjeto
             contaP.Juros = 2;
             contaP.Depositar(1200); //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
             contaP.Sacar(800);      //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
+            contaP.ExibirTipoDeConta();  //Usando Polimorfismo
             contaP.ExibirResumoConta();
 
 
             Console.ReadLine();
+
+
+
+
+
 
 
 
