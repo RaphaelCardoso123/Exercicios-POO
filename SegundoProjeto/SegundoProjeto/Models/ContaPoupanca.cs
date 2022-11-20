@@ -18,5 +18,14 @@ namespace SegundoProjeto.Models
         {
             Saldo += valor;
         }
+
+        public void ExibirResumoConta()
+        {
+            Console.WriteLine($"Correntista: {Nome}.");
+            Console.WriteLine($"Número: {Numero}.");
+            Console.WriteLine($"Agencia: {Agencia}.");
+            Console.WriteLine($"Saldo: {Saldo}.");
+        }
+
     }
 }
