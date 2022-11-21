@@ -11,6 +11,10 @@ namespace SegundoProjeto
         static void Main(string[] args)
         {
 
+            /*
+            Exercicio proposto pelo prof. Leonardo Buta - pasta Exercicios 
+            //TIPO DE ANIMAIS
+
             Cachorro cachorro = new Cachorro();
             cachorro.TipoAnimal();
             cachorro.Raca = "Pastor Alemão";
@@ -36,22 +40,16 @@ namespace SegundoProjeto
             passaro.Tamanho = "Pequeno";
             passaro.Piar = "PiuPiuPiu!!";
             passaro.ResumoAnimal();
+            */
 
 
 
 
-
-
-
-
-
-
-
-
+            
 
 
             /*
-            * Exercicio feito durante as aulas gravadas - pasta Models 
+            * Exercicio feito durante as aulas gravadas e checkpoints - pasta Models 
             
             //CONTA CORRENTE
             ContaCorrente contaC = new ContaCorrente();
@@ -81,6 +79,25 @@ namespace SegundoProjeto
             contaP.ExibirTipoDeConta();  //Usando Polimorfismo
             contaP.ExibirResumoConta();
             */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
