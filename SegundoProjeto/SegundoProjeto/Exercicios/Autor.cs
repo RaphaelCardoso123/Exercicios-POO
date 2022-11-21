@@ -4,9 +4,19 @@ using System.Text;
 
 namespace SegundoProjeto.Exercicios
 {
-    class Autor
+    public class Autor
     {
         public string Nome { get; set; }
         public string Email { get; set; }
+
+        public Autor( string autor, string email)
+        {
+            Nome = Nome;
+            Email = email;
+        }
+
+        public Autor()
+        {
+        }
     }
 }

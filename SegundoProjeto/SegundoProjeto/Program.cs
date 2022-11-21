@@ -14,17 +14,17 @@ namespace SegundoProjeto
 
             //Teste
 
-            List<Autor> Autores = new List<Autor>();
+            List<Autor> Autor = new List<Autor>();
 
             Autor autor1 = new Autor();
             autor1.Nome = "Nome do livro1";
             autor1.Email = "Email do escritor";
 
-            Autores.Add(autor1);
+            Autor.Add(autor1);
 
-            foreach(Autor obj in Autores)
+            foreach(Autor obj in Autor)
             {
-                Console.WriteLine(Autores);
+                Console.WriteLine(Autor);
             }
 
           
