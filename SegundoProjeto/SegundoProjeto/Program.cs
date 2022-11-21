@@ -1,6 +1,7 @@
 ﻿using System;
 using SegundoProjeto.Entities;
 using SegundoProjeto.Entities.Enums;
+using SegundoProjeto.Exercicios;
 using SegundoProjeto.Models;
 
 namespace SegundoProjeto
@@ -10,6 +11,31 @@ namespace SegundoProjeto
         static void Main(string[] args)
         {
 
+            Cachorro cachorro = new Cachorro();
+
+            cachorro.Raca = "Pastor Alemão";
+            cachorro.Tamanho = "Grande";
+            cachorro.Latir = "AuAuuu!!";
+            cachorro.ResumoAnimal();
+            //cachorro.EmitirSom();
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*
+            * Exercicio feito durante as aulas gravadas - pasta Models 
+            
             //CONTA CORRENTE
             ContaCorrente contaC = new ContaCorrente();
 
@@ -37,10 +63,7 @@ namespace SegundoProjeto
             contaP.Sacar(800);      //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
             contaP.ExibirTipoDeConta();  //Usando Polimorfismo
             contaP.ExibirResumoConta();
-
-
-            Console.ReadLine();
-
+            */
 
 
 
@@ -51,8 +74,11 @@ namespace SegundoProjeto
 
 
 
-            /*
-            //(1) ENUM (Classe Entities) - UDEMY
+
+
+
+            /*Exercicio UDEMY
+            //(1) ENUM (Classe Entities)
             Order order = new Order
             {
                 Id = 1200,
@@ -62,6 +88,9 @@ namespace SegundoProjeto
             Console.WriteLine(order);
             Console.ReadLine();
             */
+
+
+            Console.ReadLine();
         }
     }
 }
