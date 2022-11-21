@@ -17,13 +17,22 @@ namespace SegundoProjeto
             cachorro.Latir = "AuAuuu!!";
             cachorro.ResumoAnimal();
             //cachorro.EmitirSom();
+
             Console.WriteLine("");
+
             Gato gato = new Gato();
             gato.Raca = "Azul Russo";
             gato.Tamanho = "Médio";
             gato.Miar = "Miaaaau!!";
             gato.ResumoAnimal();
-            
+
+            Console.WriteLine("");
+
+            Passaro passaro = new Passaro();
+            passaro.Raca = "Andorinha";
+            passaro.Tamanho = "Pequeno";
+            passaro.Piar = "PiuPiuPiu!!";
+            passaro.ResumoAnimal();
 
 
 
