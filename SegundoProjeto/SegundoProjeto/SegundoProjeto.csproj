@@ -40,8 +40,10 @@
     <Compile Include="Entities\Enums\OrderStatus.cs" />
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Exercicios\Animal.cs" />
+    <Compile Include="Exercicios\Autor.cs" />
     <Compile Include="Exercicios\Cachorro.cs" />
     <Compile Include="Exercicios\Gato.cs" />
+    <Compile Include="Exercicios\Livro.cs" />
     <Compile Include="Exercicios\Passaro.cs" />
     <Compile Include="Models\Conta.cs" />
     <Compile Include="Models\ContaCorrente.cs" />
