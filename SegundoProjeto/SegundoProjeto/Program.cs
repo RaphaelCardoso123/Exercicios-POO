@@ -12,12 +12,17 @@ namespace SegundoProjeto
         {
 
             Cachorro cachorro = new Cachorro();
-
             cachorro.Raca = "Pastor Alemão";
             cachorro.Tamanho = "Grande";
             cachorro.Latir = "AuAuuu!!";
             cachorro.ResumoAnimal();
             //cachorro.EmitirSom();
+            Console.WriteLine("");
+            Gato gato = new Gato();
+            gato.Raca = "Azul Russo";
+            gato.Tamanho = "Médio";
+            gato.Miar = "Miaaaau!!";
+            gato.ResumoAnimal();
             
 
 

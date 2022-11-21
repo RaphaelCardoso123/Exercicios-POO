@@ -4,7 +4,16 @@ using System.Text;
 
 namespace SegundoProjeto.Exercicios
 {
-    class Gato
+    class Gato : Animal
     {
+        public string Miar { get; set; }
+
+        public override void ResumoAnimal()
+        {
+            base.ResumoAnimal();
+            Console.WriteLine($"Gato: {Miar}");
+        }
     }
+
+    
 }
