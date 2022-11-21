@@ -13,6 +13,10 @@ namespace SegundoProjeto.Exercicios
             base.ResumoAnimal();
             Console.WriteLine($"Gato: {Miar}");
         }
+        public override void TipoAnimal()
+        {
+            Console.WriteLine("Gato:");
+        }
     }
 
     

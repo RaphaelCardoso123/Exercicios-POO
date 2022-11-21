@@ -9,12 +9,12 @@ namespace SegundoProjeto.Exercicios
         public string Raca { get; set; }
         public string Tamanho { get; set; }
 
-        /*
-        public virtual void EmitirSom()
+        
+        public virtual void TipoAnimal()
         {
-            Console.WriteLine("Tipo de som:");
+            Console.WriteLine("Tipo animal:");
         }
-        */
+        
         public virtual void ResumoAnimal()
         {
             Console.WriteLine($"Raça: {Raca}");

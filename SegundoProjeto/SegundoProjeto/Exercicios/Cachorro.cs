@@ -11,14 +11,14 @@ namespace SegundoProjeto.Exercicios
         public override void ResumoAnimal()
         {
             base.ResumoAnimal();
-            Console.WriteLine($"Cachorro: {Latir}");
+            Console.WriteLine($"Tipo sonoro: {Latir}");
         }
-        /*
-        public override void EmitirSom()
+        
+        public override void TipoAnimal()
         {
-            Console.WriteLine();
+            Console.WriteLine("Cachorro:");
         }
-        */
+        
 
     }
 }

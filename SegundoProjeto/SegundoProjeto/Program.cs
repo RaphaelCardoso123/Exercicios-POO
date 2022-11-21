@@ -12,15 +12,17 @@ namespace SegundoProjeto
         {
 
             Cachorro cachorro = new Cachorro();
+            cachorro.TipoAnimal();
             cachorro.Raca = "Pastor Alemão";
             cachorro.Tamanho = "Grande";
             cachorro.Latir = "AuAuuu!!";
             cachorro.ResumoAnimal();
-            //cachorro.EmitirSom();
+            
 
             Console.WriteLine("");
 
             Gato gato = new Gato();
+            gato.TipoAnimal();
             gato.Raca = "Azul Russo";
             gato.Tamanho = "Médio";
             gato.Miar = "Miaaaau!!";
@@ -29,6 +31,7 @@ namespace SegundoProjeto
             Console.WriteLine("");
 
             Passaro passaro = new Passaro();
+            passaro.TipoAnimal();
             passaro.Raca = "Andorinha";
             passaro.Tamanho = "Pequeno";
             passaro.Piar = "PiuPiuPiu!!";
