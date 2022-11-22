@@ -9,6 +9,7 @@ namespace SegundoProjeto.Exercicios
     {
 
         public string Nome { get; set; }
+
         //public Autor[] autores;
 
 }
