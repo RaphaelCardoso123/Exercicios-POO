@@ -11,7 +11,8 @@ namespace SegundoProjeto
     {
         static void Main(string[] args)
         {
-           
+
+            
             List<Autor> Autores = new List<Autor>();
 
             //Livro l1 = new Livro();
@@ -42,7 +43,7 @@ namespace SegundoProjeto
                 Console.WriteLine($"Email: {obj.Email}.");
                 Console.WriteLine("");
             }
-
+            
 
           
           
@@ -52,7 +53,7 @@ namespace SegundoProjeto
             /*
             Exercicio proposto pelo prof. Leonardo Buta - pasta Exercicios 
             //TIPO DE ANIMAIS
-
+            
             Cachorro cachorro = new Cachorro();
             cachorro.TipoAnimal();
             cachorro.Raca = "Pastor Alemão";
@@ -151,6 +152,7 @@ namespace SegundoProjeto
 
             /*Exercicio UDEMY
             //(1) ENUM (Classe Entities)
+
             Order order = new Order
             {
                 Id = 1200,
