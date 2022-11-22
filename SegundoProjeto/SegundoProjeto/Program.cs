@@ -11,28 +11,21 @@ namespace SegundoProjeto
     {
         static void Main(string[] args)
         {
-
             
             List<Autor> Autores = new List<Autor>();
 
-            Livro l1 = new Livro();
 
-            Autor autor1 = new Autor();
-            autor1.Nome = "The catcher in the Rye";
-            autor1.Email = "salinger@gmail.com";
+
+            Autor autor1 = new Autor( ) { Nome = "The catcher in the Rye", Email = "salinger@gmail.com" };
             Autores.Add(autor1);
           
-            Autor autor2 = new Autor();
-            autor2.Nome = "Rich Dad Poor Dad";
-            autor2.Email = "robert@hotmail.com";
+            Autor autor2 = new Autor() { Nome = "Rich Dad Poor Dad", Email = "robert@hotmail.com" };
             Autores.Add(autor2);
 
-            Autor autor3 = new Autor();
-            autor3.Nome = "Richest Man in Babylon";
-            autor3.Email = "george@gmail.com";
+            Autor autor3 = new Autor() { Nome = "Richest Man in Babylon", Email = "george@gmail.com" };
             Autores.Add(autor3);
 
-            l1.autores.Add(autor1, autor2, autor3);
+
 
             Console.WriteLine("Livros:");
             Console.WriteLine("");
