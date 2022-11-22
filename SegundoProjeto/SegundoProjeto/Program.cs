@@ -13,7 +13,7 @@ namespace SegundoProjeto
         {
             
             List<Autor> Autores = new List<Autor>();
-
+            
 
 
             Autor autor1 = new Autor( ) { Nome = "The catcher in the Rye", Email = "salinger@gmail.com" };
@@ -24,7 +24,7 @@ namespace SegundoProjeto
 
             Autor autor3 = new Autor() { Nome = "Richest Man in Babylon", Email = "george@gmail.com" };
             Autores.Add(autor3);
-
+            
 
 
             Console.WriteLine("Livros:");
