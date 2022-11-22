@@ -10,8 +10,9 @@ namespace SegundoProjeto.Exercicios
 
         public string Nome { get; set; }
 
-        //public Autor[] autores;
+        public Autor[] autores;
 
+        //public Livro (string nome, string autores)  ANDRE
 }
 
 }

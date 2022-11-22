@@ -15,7 +15,7 @@ namespace SegundoProjeto
             
             List<Autor> Autores = new List<Autor>();
 
-            //Livro l1 = new Livro();
+            Livro l1 = new Livro();
 
             Autor autor1 = new Autor();
             autor1.Nome = "The catcher in the Rye";
@@ -32,7 +32,7 @@ namespace SegundoProjeto
             autor3.Email = "george@gmail.com";
             Autores.Add(autor3);
 
-            //l1.autores.Add(autor1, autor2, autor3);
+            l1.autores.Add(autor1, autor2, autor3);
 
             Console.WriteLine("Livros:");
             Console.WriteLine("");
