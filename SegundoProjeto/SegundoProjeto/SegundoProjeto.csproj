@@ -39,15 +39,15 @@
   <ItemGroup>
     <Compile Include="Entities\Enums\OrderStatus.cs" />
     <Compile Include="Entities\Order.cs" />
-    <Compile Include="Exercicios\Animal\Animal.cs" />
-    <Compile Include="Exercicios\Livros\Autor.cs" />
-    <Compile Include="Exercicios\Animal\Cachorro.cs" />
-    <Compile Include="Exercicios\Animal\Gato.cs" />
-    <Compile Include="Exercicios\Livros\Livro.cs" />
-    <Compile Include="Exercicios\Animal\Passaro.cs" />
-    <Compile Include="Exercicios\Conta\Conta.cs" />
-    <Compile Include="Exercicios\Conta\ContaCorrente.cs" />
-    <Compile Include="Exercicios\Conta\ContaPoupanca.cs" />
+    <Compile Include="Exercicios_POO\Animal\Animal.cs" />
+    <Compile Include="Exercicios_POO\Livros\Autor.cs" />
+    <Compile Include="Exercicios_POO\Animal\Cachorro.cs" />
+    <Compile Include="Exercicios_POO\Animal\Gato.cs" />
+    <Compile Include="Exercicios_POO\Livros\Livro.cs" />
+    <Compile Include="Exercicios_POO\Animal\Passaro.cs" />
+    <Compile Include="Exercicios_POO\Conta\Conta.cs" />
+    <Compile Include="Exercicios_POO\Conta\ContaCorrente.cs" />
+    <Compile Include="Exercicios_POO\Conta\ContaPoupanca.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
