@@ -13,11 +13,11 @@ namespace SegundoProjeto
         {
 
             
-                            Livro livro = new Livro();
-                            livro.NomeLivro = "Teste";
+            Livro livro = new Livro();
+            livro.NomeLivro = "Teste";
 
-                            Livro livro2 = new Livro();
-                            livro2.NomeLivro = "Testando";
+            Livro livro2 = new Livro();
+            livro2.NomeLivro = "Testando";
 
             Livro livro3 = new Livro();
             livro3.NomeLivro = "Testado";
@@ -36,16 +36,16 @@ namespace SegundoProjeto
             autor3.Nome = "Richest Man in Babylon";
             autor3.Email = "george@gmail.com";
 
-
+            
             livro.Autores.Add(autor1);
             livro2.Autores.Add(autor2);
             livro3.Autores.Add(autor3);
 
+        
             Console.WriteLine("Livros:");
             Console.WriteLine("");
 
                 Console.WriteLine(livro.NomeLivro);
-
                 foreach (Autor obj in livro.Autores)
                 {
                     Console.WriteLine($"Nome: {obj.Nome}.");
@@ -53,8 +53,7 @@ namespace SegundoProjeto
                     Console.WriteLine("");
                 }
 
-                 Console.WriteLine(livro2.NomeLivro);
-
+                Console.WriteLine(livro2.NomeLivro);
                 foreach (Autor obj in livro2.Autores)
                 {
                     Console.WriteLine($"Nome: {obj.Nome}.");
@@ -62,14 +61,14 @@ namespace SegundoProjeto
                     Console.WriteLine("");
                 }
 
-            Console.WriteLine(livro3.NomeLivro);
+                Console.WriteLine(livro3.NomeLivro);
 
-            foreach (Autor obj in livro3.Autores)
-            {
-                Console.WriteLine($"Nome: {obj.Nome}.");
-                Console.WriteLine($"Email: {obj.Email}.");
-                Console.WriteLine("");
-            }
+                foreach (Autor obj in livro3.Autores)
+                {
+                    Console.WriteLine($"Nome: {obj.Nome}.");
+                    Console.WriteLine($"Email: {obj.Email}.");
+                    Console.WriteLine("");
+                }
 
 
 
