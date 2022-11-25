@@ -23,6 +23,20 @@ namespace SegundoProjeto.Exercicios
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
     public Autor( string autor, string email)
         {

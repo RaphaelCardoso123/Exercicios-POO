@@ -8,7 +8,9 @@ namespace SegundoProjeto.Exercicios
     public class Livro
     {
 
-        public string Nome { get; set; }
+        public string NomeLivro { get; set; }
+
+        public List<Autor> Autores = new List<Autor>();
 
     }
 

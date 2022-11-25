@@ -11,7 +11,99 @@ namespace SegundoProjeto
     {
         static void Main(string[] args)
         {
+
             
+                            Livro livro = new Livro();
+                            livro.NomeLivro = "Teste";
+
+                            Livro livro2 = new Livro();
+                            livro2.NomeLivro = "Testando";
+
+            Livro livro3 = new Livro();
+            livro3.NomeLivro = "Testado";
+
+
+
+            Autor autor1 = new Autor();
+            autor1.Nome = "The catcher in the Rye";
+            autor1.Email = "salinger@gmail.com";
+
+            Autor autor2 = new Autor();
+            autor2.Nome = "Rich Dad Poor Dad";
+            autor2.Email = "robert@hotmail.com";
+
+            Autor autor3 = new Autor();
+            autor3.Nome = "Richest Man in Babylon";
+            autor3.Email = "george@gmail.com";
+
+
+            livro.Autores.Add(autor1);
+            livro2.Autores.Add(autor2);
+            livro3.Autores.Add(autor3);
+
+            Console.WriteLine("Livros:");
+            Console.WriteLine("");
+
+                Console.WriteLine(livro.NomeLivro);
+
+                foreach (Autor obj in livro.Autores)
+                {
+                    Console.WriteLine($"Nome: {obj.Nome}.");
+                    Console.WriteLine($"Email: {obj.Email}.");
+                    Console.WriteLine("");
+                }
+
+                 Console.WriteLine(livro2.NomeLivro);
+
+                foreach (Autor obj in livro2.Autores)
+                {
+                    Console.WriteLine($"Nome: {obj.Nome}.");
+                    Console.WriteLine($"Email: {obj.Email}.");
+                    Console.WriteLine("");
+                }
+
+            Console.WriteLine(livro3.NomeLivro);
+
+            foreach (Autor obj in livro3.Autores)
+            {
+                Console.WriteLine($"Nome: {obj.Nome}.");
+                Console.WriteLine($"Email: {obj.Email}.");
+                Console.WriteLine("");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*
             List<Autor> Autores = new List<Autor>();
             
 
@@ -34,6 +126,18 @@ namespace SegundoProjeto
                 Console.WriteLine($"Email: {obj.Email}.");
                 Console.WriteLine("");
             }
+            */
+
+
+
+
+
+
+
+
+
+
+
 
             /*
             List<Autor> Autores = new List<Autor>();
