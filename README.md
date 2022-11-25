@@ -1,3 +1,3 @@
 Alguns exercícios para praticar CSharp,
 
-Enumeração / Herança / Polimorfismo / ..
+Enumeração / Herança / Polimorfismo / List
