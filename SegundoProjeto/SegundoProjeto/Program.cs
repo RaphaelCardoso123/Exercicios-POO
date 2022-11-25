@@ -15,7 +15,6 @@ namespace SegundoProjeto
             List<Autor> Autores = new List<Autor>();
             
 
-
             Autor autor1 = new Autor( ) { Nome = "The catcher in the Rye", Email = "salinger@gmail.com" };
             Autores.Add(autor1);
           
@@ -26,7 +25,6 @@ namespace SegundoProjeto
             Autores.Add(autor3);
             
 
-
             Console.WriteLine("Livros:");
             Console.WriteLine("");
 
@@ -36,10 +34,42 @@ namespace SegundoProjeto
                 Console.WriteLine($"Email: {obj.Email}.");
                 Console.WriteLine("");
             }
+
+            /*
+            List<Autor> Autores = new List<Autor>();
+            
             
 
-          
-          
+            Autor autor1 = new Autor();
+            autor1.Nome_autor = "The catcher in the Rye";
+            autor1.Email = "salinger@gmail.com";
+            
+            Autor autor2 = new Autor();
+            autor2.Nome_autor = "Rich Dad Poor Dad";
+            autor2.Email = "robert@hotmail.com";
+         
+            Autor autor3 = new Autor();
+            autor3.Nome_autor = "Richest Man in Babylon";
+            autor3.Email = "george@gmail.com";
+
+
+            Autores.Add(autor1);
+            Autores.Add(autor2);
+            Autores.Add(autor3);
+
+            Console.WriteLine("Livros:");
+            Console.WriteLine("");
+
+            foreach (Autor obj in Autores)
+            {
+                Console.WriteLine($"Nome: {obj.Nome_autor}.");
+                Console.WriteLine($"Email: {obj.Email}.");
+                Console.WriteLine("");
+            }
+             */
+
+
+
 
 
 
