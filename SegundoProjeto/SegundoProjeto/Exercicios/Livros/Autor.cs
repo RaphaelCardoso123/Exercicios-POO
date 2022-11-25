@@ -10,8 +10,21 @@ namespace SegundoProjeto.Exercicios
         public string Nome { get; set; }
         public string Email { get; set; }
 
+    }
+}
 
-        public Autor( string autor, string email)
+
+
+
+
+
+
+
+
+
+
+/*
+    public Autor( string autor, string email)
         {
             Nome = Nome;
             Email = email;
@@ -19,6 +32,4 @@ namespace SegundoProjeto.Exercicios
 
         public Autor()
         { }
-
-    }
-}
+*/
