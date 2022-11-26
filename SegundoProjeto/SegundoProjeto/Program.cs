@@ -12,8 +12,8 @@ namespace SegundoProjeto
         static void Main(string[] args)
         {
             
-            Livro livro = new Livro();
-            livro.NomeLivro = "The catcher in the Rye";
+            Livro livro1 = new Livro();
+            livro1.NomeLivro = "The catcher in the Rye";
             Livro livro2 = new Livro();
             livro2.NomeLivro = "Rich Dad Poor Dad";
             Livro livro3 = new Livro();
@@ -33,7 +33,7 @@ namespace SegundoProjeto
             autor3.Email = "george@gmail.com";
             
 
-            livro.Autores.Add(autor1);
+            livro1.Autores.Add(autor1);
             livro2.Autores.Add(autor2);
             livro3.Autores.Add(autor3);
 
@@ -41,8 +41,8 @@ namespace SegundoProjeto
             Console.WriteLine("Livros:");
             Console.WriteLine("");
 
-                Console.WriteLine(livro.NomeLivro);
-                foreach (Autor obj in livro.Autores)
+                Console.WriteLine(livro1.NomeLivro);
+                foreach (Autor obj in livro1.Autores)
                 {
                     Console.WriteLine($"Autor: {obj.Nome}.");
                     Console.WriteLine($"Email: {obj.Email}.");
