@@ -1,7 +1,7 @@
 ﻿using System;
+using SegundoProjeto.Exercicios;
 using SegundoProjeto.Entities;
 using SegundoProjeto.Entities.Enums;
-using SegundoProjeto.Exercicios;
 using SegundoProjeto.Models;
 using System.Collections.Generic;
 
@@ -12,6 +12,7 @@ namespace SegundoProjeto
         static void Main(string[] args)
         {
             
+
             Livro livro1 = new Livro();
             livro1.NomeLivro = "The catcher in the Rye";
             Livro livro2 = new Livro();
@@ -72,7 +73,7 @@ namespace SegundoProjeto
 
 
             /*
-            Exercicio proposto pelo prof. Leonardo Buta - pasta Exercicios 
+             
             //TIPO DE ANIMAIS
             
             Cachorro cachorro = new Cachorro();
@@ -109,7 +110,6 @@ namespace SegundoProjeto
 
 
             /*
-            * Exercicio feito durante as aulas gravadas e checkpoints - pasta Models 
 
             //CONTA CORRENTE
             ContaCorrente contaC = new ContaCorrente();
