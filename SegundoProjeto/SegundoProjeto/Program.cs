@@ -1,8 +1,7 @@
 ﻿using System;
 using SegundoProjeto.Exercicios;
-using SegundoProjeto.Entities;
+using SegundoProjeto.Entities; 
 using SegundoProjeto.Entities.Enums;
-using SegundoProjeto.Models;
 using System.Collections.Generic;
 
 namespace SegundoProjeto
@@ -13,6 +12,8 @@ namespace SegundoProjeto
         {
             
             
+            //LIVROS
+
             Livro livro1 = new Livro();
             livro1.NomeLivro = "The catcher in the Rye";
             Livro livro2 = new Livro();
@@ -74,7 +75,7 @@ namespace SegundoProjeto
 
             /*
             //TIPO DE ANIMAIS
-            
+
             Cachorro cachorro = new Cachorro();
             cachorro.TipoAnimal();
             cachorro.Raca = "Pastor Alemão";
@@ -111,6 +112,7 @@ namespace SegundoProjeto
             
             /*
             //CONTA CORRENTE
+
             ContaCorrente contaC = new ContaCorrente();
 
             contaC.Nome = "Raphael Cardoso";
