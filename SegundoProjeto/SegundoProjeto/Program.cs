@@ -12,7 +12,7 @@ namespace SegundoProjeto
         static void Main(string[] args)
         {
             
-
+            
             Livro livro1 = new Livro();
             livro1.NomeLivro = "The catcher in the Rye";
             Livro livro2 = new Livro();
@@ -65,7 +65,7 @@ namespace SegundoProjeto
                     Console.WriteLine($"Email: {obj.Email}.");
                     Console.WriteLine("");
                 }
-
+                
             
 
 
@@ -73,7 +73,6 @@ namespace SegundoProjeto
 
 
             /*
-             
             //TIPO DE ANIMAIS
             
             Cachorro cachorro = new Cachorro();
@@ -109,8 +108,8 @@ namespace SegundoProjeto
 
 
 
+            
             /*
-
             //CONTA CORRENTE
             ContaCorrente contaC = new ContaCorrente();
 
@@ -118,8 +117,8 @@ namespace SegundoProjeto
             contaC.Numero = 9999;
             contaC.Agencia = 123;
             contaC.Tarifa = 15;
-            contaC.Depositar(1000);  //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
-            contaC.Sacar(900);       //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
+            contaC.Depositar(1000);  //pelo Saldo na classe Conta ser privado só pode ser alterada dessa maneira.
+            contaC.Sacar(900);       //pelo Saldo na classe Conta ser privado só pode ser alterada dessa maneira.
             contaC.ExibirTipoDeConta();  //Usando Polimorfismo
             contaC.ExibirResumoConta();
 
@@ -134,8 +133,8 @@ namespace SegundoProjeto
             contaP.Numero = 8888;
             contaP.Agencia = 321;
             contaP.Juros = 2;
-            contaP.Depositar(1200); //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
-            contaP.Sacar(800);      //Por Saldo na classe Conta ser prvado só pode ser alterada dessa maneira.
+            contaP.Depositar(1200); //pelo Saldo na classe Conta ser privado só pode ser alterada dessa maneira.
+            contaP.Sacar(800);      //pelo Saldo na classe Conta ser privado só pode ser alterada dessa maneira.
             contaP.ExibirTipoDeConta();  //Usando Polimorfismo
             contaP.ExibirResumoConta();
             */
